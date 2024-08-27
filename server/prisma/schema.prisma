@@ -34,3 +34,13 @@ model Residency {
 
     @@unique(fields: [address, userEmail])
 }
+
+
+// Why to use Prizma */
+
+// Basically prizma is an abstarction of our database layer
+// IT provides general way to deal with all kinds of databases
+// it provides anstraction layer and abstraction method that can be used on any kind of datanase
+// it will make developer experience so easy no matters what kind of database is behinf the sence
+//  
+
